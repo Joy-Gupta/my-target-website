@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.btn{
+    border-radius: 8px;
+    background: rgb(12, 12, 11);
+    padding: 15px 25px 15px 25px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    font-family:worksans;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn-container{
+    text-align: center;
+}
+
+#hero {
+    height: 615px;
+    background-image:linear-gradient(0.00deg, rgb(7, 7, 7) -211.5%,rgba(16, 16, 16, 0) 100%),
+    url(/assets/hero-bg.png);
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#hero .hero-content{
+        width: 685px;
+}
+#hero .hero-content .subtitle{
+    
+        color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+    
+#hero .hero-content .tittle{
+    
+    color: rgb(13, 19, 33);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+    
+#hero .hero-content .description{
+    color: rgb(13, 19, 33);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    
+} 
+
+/* ============My target area==================== */
+
+.card-container{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    font-family:worksans;
+    
+}
+
+#card-box{
+    width: 884px;
+    margin: 50px auto;
+   
+}
+
+#card-box .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card .img-box{
+    width: 250px;
+    
+}
+.card .img-box img{
+    width: 25%;
+    margin-left: 95px;
+    
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.card .shop{
+    background-color: rgb(241, 232, 150);
+    padding: 10px 18px 10px 18px;
+    color: black;
+}
+
+
+
+/* ===============Why web development======================== */
+
+.global{
+    display: flex;
+    justify-content: space-between;
+}
+.developwithoutlimit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+
+}
+
+.title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+#why-box{
+    width: 884px;
+    margin: 30px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 60px;;
+}
+
+/* ==========My insperation section=========== */
+
+
+
+.video{
+    
+    /* Frame 14 */
+position: static;
+width: 800px;
+height: 400px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+padding: 32px;
+
+
+}
+
+/* ===========footer---------------- */
+
+.foot{
+margin-top: 100px;
+margin-left: 100px;
+display: flex;
+align-items: center;
+justify-content:stretch
+
+}
+.social-icon{
+    justify-content: stretch;
+    margin-left: 900px;
+}
