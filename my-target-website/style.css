@@ -122,3 +122,75 @@ text-align: center;
 
 
 /* ===============Why web development======================== */
+
+.global{
+    display: flex;
+    justify-content: space-between;
+}
+.developwithoutlimit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+
+}
+
+.title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+#why-box{
+    width: 884px;
+    margin: 30px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 60px;;
+}
+
+/* ==========My insperation section=========== */
+
+
+
+.video{
+    
+    /* Frame 14 */
+position: static;
+width: 800px;
+height: 400px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+padding: 32px;
+
+
+}
+
+/* ===========footer---------------- */
+
+.foot{
+margin-top: 100px;
+margin-left: 100px;
+display: flex;
+align-items: center;
+justify-content:stretch
+
+}
+.social-icon{
+    justify-content: stretch;
+    margin-left: 900px;
+}
